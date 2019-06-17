@@ -1,5 +1,3 @@
-
-
 var breadSelection = ["Sourdough", "Rye", "Pumpernickel"];
 var counter = setInterval(timer, 1000);
 var chooseBread = document.querySelector(".choose");
