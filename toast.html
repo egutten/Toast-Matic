@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toast Challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="toast.css">
+    <link href="https://fonts.googleapis.com/css?family=Damion|Roboto+Condensed:300,400&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="container-fluid">
+      <div class="row title-row">
+        <div class="col-12 d-flex flex-column justify-content-center align-items-center">  
+          <h1>Toast-Matic 4000</h1>
+          <img src="img/toastmaster.png" alt="">
+        </div>
+      </div>
+      <div class="row titles top-titles">
+        <div class="col-6 d-flex flex-column align-items-center">
+          <h2>Step 1: Choose Your Bread</h2>
+        </div>
+        <div class="col-6 d-flex flex-column align-items-center">
+          <h2>Step 2: Pick Level of Toastiness</h2>
+        </div>
+      </div>
+      <div class="row setup-row">
+        <div class="col-6 d-flex flex-column align-items-center">
+          <button class = "show choose" type="button" name="button">Choose Bread</button>
+          <button class="another-slice" type="button" name="button">Grab another slice!</button>
+          <button class="enough" type="button" name="button">You've had enough!</button>
+          <div class="text-space">
+            <p class="breadResult"></p>
+          </div>
+        </div>
+        <div class="col-6 d-flex flex-column align-items-center">
+          <div>
+            <button id="light" class="toast-button" type="button" name="button">Not really</button>
+            <button id="medium" class="toast-button" type="button" name="button">Very!</button>
+            <button id="burn" class="toast-button" type="button" name="button">BURN IT!</button>
+          </div>
+          <div class="text-space">
+            <p class="toastResult"></p>
+          </div>  
+        </div>
+      </div>
+      <div class="row titles toast-title">
+        <div class="col-12">
+          <h2>Step 3: Toast It</h2>
+        </div>
+      </div>
+      <div class="row toast-row">
+        <div class="col-12 d-flex flex-column align-items-center">
+          <button id="toast" type="button" name="button">Toast It!</button>
+          <div class="toast-space">
+            <p class="waiting"></p>
+            <p class="ready"><span id="timer"></span></p>
+            <div class="toast-pic"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row titles d-flex justify-content-center">
+        <div class="col-4 d-flex flex-column align-items-center">
+          <h2>Step 4: Plate It</h2>
+        </div>
+        <div class="col-4 d-flex flex-column align-items-center">
+          <h2>Step 5: Eat!</h2>
+        </div>
+      </div>  
+      <div class="row save-eat-row d-flex justify-content-center">
+        <div class="col-4 d-flex flex-column align-items-center">
+          <button class="set-aside" type="button" name="button">Put 'Er There!</button>
+          <div class="plate">
+            <div class="plate-inner"></div>
+          </div>
+        </div>
+        <div class="col-4 d-flex flex-column align-items-center">
+          <button id="eat" type="button" name="button">Eat It!</button>
+          <p class="nosh-noise">NOM NOM!</p>
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="toast.js"></script>
+  </body>
+  
+</html>
