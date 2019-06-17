@@ -15,7 +15,7 @@ var ready = document.querySelector(".ready");
 var aside = document.querySelector(".set-aside");
 var plate = document.querySelector(".plate");
 var noshNoise = document.querySelector(".nosh-noise");
-var toastNumber = []
+var toastNumber = [];
 var toastingTime;
 var count;
 var realTime;
