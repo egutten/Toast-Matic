@@ -72,6 +72,10 @@ img {
     margin-top: 10px;
 }
 
+.save-eat-row {
+  padding-bottom: 25px;
+}
+
 .another-slice, .enough, .reset, .choose, .ready, .waiting, .nosh-noise {
   display: none;
 }
