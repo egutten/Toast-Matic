@@ -1,0 +1,158 @@
+body {
+  font-family: "Damion";
+  background: #f7e5be;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+    line-height: 80px;
+    font-size: 80px;
+    margin: 30px 0px 0px 0px;
+    transform: rotate(-7deg);
+}
+
+h2 {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+button {
+  outline: none !important;
+}
+
+button:hover {
+  border-bottom: 2px solid red;
+}
+
+img {
+  height: 280px;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.title-row {
+  height: 170px;
+  background: #332f29;
+  color: #f7e5be;
+}
+
+.titles {
+  background: radial-gradient(1400px, #332f29, #f7e5be);
+  color: #f7e5be;
+  border: none;
+}
+
+.toast-title {
+  background: radial-gradient(500px, #332f29, #f7e5be);
+}
+
+.top-titles {
+  border-top: 1px solid #f7e5be;
+}
+
+.setup-row {
+  height: 120px;
+}
+
+.toast-row {
+  height: 170px;
+}
+
+.setup-row, .toast-row, .save-eat-row {
+    margin-top: 10px;
+}
+
+.save-eat-row {
+  padding-bottom: 25px;
+}
+
+.another-slice, .enough, .reset, .choose, .ready, .waiting, .nosh-noise {
+  display: none;
+}
+
+.toast-button, .choose, .set-aside, #eat, .another-slice, .enough {
+  margin-bottom: 10px;
+}
+
+#toast, .toast-button, .choose, .set-aside, #eat, .another-slice, .enough {
+  border: none;
+  padding: 0px;
+  line-height: 18px;
+  background: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto Condensed";
+  letter-spacing: 1.5px;
+}
+
+.text-space, .toast-space, #eat {
+  font-size: 20px;
+}
+
+.waiting {
+  margin: 10px 0px 0px 0px;
+}
+
+.text-space {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+.plate {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #cecece;
+  background: radial-gradient(150px, white, #cecece) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: -10px 10px 10px 2px rgba(127, 127, 127, .2);
+}
+
+.toast-space {
+  width: 300px;
+  height: 120px;
+  text-align: center;
+}
+
+.toast-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 25% 25% 5% 5%;
+  margin: 20px auto;
+  display: none;
+  box-shadow: -5px 5px 10px 1px rgba(127, 127, 127, .2);
+}
+
+.show {
+  display: block;
+}
+
+#toast:hover {
+  border-bottom: 2px solid red;
+}
+
+#eat:hover {
+  border-bottom: 2px solid red;
+}
+
+#medium {
+  margin: 0px 20px;
+}
+
+#timer {
+  font-size: 40px;
+}
